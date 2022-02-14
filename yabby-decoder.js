@@ -90,17 +90,3 @@ function Decoder(input,port){
   }
   return decode(getHex(input),port)
 }
-
-console.log(Decoder("4E3F697D2101B4996478F2",1))
-
-result = {
-    "type": "position",
-    "latitudeDeg": 210.4049486,
-    "longitudeDeg": -171.6256479,
-    "inTrip": false,
-    "fixFailed": false,
-    "manDown": true,
-    "headingDeg": 0,
-    "speedKmph": 75,
-    "batV": 6.050000000000001
-  }
